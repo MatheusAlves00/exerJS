@@ -1,0 +1,144 @@
+// declarar variável
+var nome
+
+// Alerta uma mensagem
+window.alert('')
+
+// Confirmar dados
+window.confirm('')
+
+// Alerta com entrada input
+window.prompt('')
+
+// Converte string para tipo inteiro
+Number.parseInt()
+
+// Converte string para tipo float
+Number.parseFloat()
+
+// Converte reconhecendo se é inteiro ou float
+Number()
+
+// Converte inteiro ou float para string
+String(n)
+n.toString()
+
+// Mostrar tipo da variável
+typeof()
+
+// Formatando Strings
+var s = 'JavaScript'
+'Eu estou aprendendo s' // não faz interpolação
+'Eu estou aprendendo' + s // usa concatenção
+`Eu estou aprendendo ${s}` // usa template string
+s.lenght // quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúsculas'
+
+// Formatando Números
+var n1 = 1543.5
+n1.toFixed(2)
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRl'})
+
+// Operadores Aritméticos
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1
+5 ** 2 = 25
+
+// Ordem de precedência
+()
+**
+* / %
++ -
+
+// Atribuição Simples
+var a = 5 + 3
+var b = a % 5
+var c = 5 * b ** 2
+var d = 10 - a / 2
+var e = 6 * 2 / d
+var f = b % e + 4 / e
+
+// Auto-atribuições
+var n = 3
+n = n + 4
+n = n - 5
+n = n * 4
+n = n / 2
+n = n ** 2
+n = n % 5
+
+// Simplificando
+var n = 3
+n = n + 4  --> n += 4
+n = n - 5  --> n -= 4
+n = n * 4  --> n *= 4
+n = n / 2  --> n /= 2
+n = n ** 2  --> n **= 2
+n = n % 5  --> n %= 5
+
+// Incremento
+var x = 5
+x = x + 1   x++ ou ++x
+x = x - 1   x-- ou --x
+
+// Operadores Relacionais
+5 > 2 -> true
+7 < 4 -> false
+8 >= 8 -> true
+9 <= 7 -> false
+5 == 5 -> true
+4 != 4 -> false
+
+// Identidade
+5 == 5 -> true
+5 == '5' -> true
+5 === '5' -> false
+5 === 5 -> true
+
+// Operadores Lógicos
+! negação
+&& conjunção
+|| disjunção
+
+// Ordem
+Operadores Aritméticos
+Operadores Relacionais
+Operadores Lógicos
+Operadores Ternário
+
+// Ordem dos Operadores Lógicos
+1. Não (!)
+2. E/And (&&)
+3. Ou/Or (||)
+
+// Precedência
+| () ** / ...
+| > < >= ...
+| !
+| &&
+| ||
+| ? :
+v
+
+// Ternário
+teste ? true : false
+média >= 7.0 ? "Aprovado" : "Reprovado"
+
+// Métodos de acesso
+por Marca(<tag/>) // getElementsByTagName()
+por ID // getElementById()
+por Nome // getElementsByName()
+por Classe // getElementsByClassName()
+por Seletor // querySelector() querySelectorAll()
+
+// Array
+let num = [5, 8, 4];
+num[3] = 6;
+num.push(7);
+num.legnth;
+num.sort();
+num.indexOf(7);

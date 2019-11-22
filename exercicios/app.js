@@ -1,0 +1,1 @@
+var campo = window.document.querySelector('#resultado');
